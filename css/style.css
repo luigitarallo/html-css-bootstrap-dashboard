@@ -14,6 +14,11 @@
 ################
  */
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 /* 
 ################
 #     DEBUG    #
@@ -32,11 +37,38 @@
   border: 1px dashed red;
 }
 
+/* HEADER */
+
+#header {
+  height: 80px;
+}
+
+/* NAVBAR */
+
+.btn-secondary {
+  background-color: transparent;
+  border: none;
+  color: orange;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: none;
+}
+
 /* SIDEBAR */
 
 #sidebar {
   width: var(--sidebar-width);
   height: calc(100vh - 80px);
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #0d253a;
+}
+
+#sidebar .icon_xl {
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 5px;
 }
 
 /* CONTENT */
