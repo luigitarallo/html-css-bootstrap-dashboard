@@ -44,3 +44,17 @@
 #main_content {
   width: calc(100% - var(--sidebar-width));
 }
+
+/* 
+#******************
+#   RESPONSIVE    *
+#******************
+*/
+
+/* ## DESKTOP ## */
+
+@media screen and (min-width: 992px) {
+  :root {
+    --sidebar-width: 100px;
+  }
+}
