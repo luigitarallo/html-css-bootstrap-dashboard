@@ -1,1 +1,23 @@
+/* 
+################
+#     DEBUG    #
+################
+ */
 
+.box {
+  width: auto;
+  min-height: 80px;
+  border: 2px dashed green;
+  text-align: center;
+  line-height: 80px;
+}
+
+.border_debug {
+  border: 1px dashed red;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  height: calc(100wh -);
+}
