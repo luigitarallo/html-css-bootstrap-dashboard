@@ -41,6 +41,6 @@
 
 /* CONTENT */
 
-#main-content {
+#main_content {
   width: calc(100% - var(--sidebar-width));
 }
