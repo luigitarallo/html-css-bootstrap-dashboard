@@ -27,7 +27,24 @@
   </head>
   <body>
     <header>
-      <nav class="box">NAVBAR</nav>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/mobile-logo.png"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-ms-inline-block d-md-none d-lg-none align-text-top"
+          />
+          <img
+            src="img/logo.svg"
+            alt="Logo"
+            width="100"
+            height="50"
+            class="d-none d-md-block d-lg-block align-text-top"
+          />
+        </a>
+      </div>
     </header>
     <main class="d-flex">
       <!-- SIDEBAR -->
@@ -47,13 +64,13 @@
         <div id="top_bar" class="box">
           <div class="container">
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-12 col-md-4 order-sm-1 order-md-3">
                 <div class="box">New student</div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-12 col-md-4 order-sm-2 order-md-1">
                 <div class="box">Plan</div>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-12 col-md-4 order-sm-3 order-md-2">
                 <div class="box">Online Students</div>
               </div>
             </div>
