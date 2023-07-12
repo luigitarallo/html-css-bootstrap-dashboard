@@ -76,6 +76,7 @@ ul {
 #main_content {
   width: calc(100% - var(--sidebar-width));
   height: calc(100vh - 80px);
+  overflow: auto;
 }
 
 /* 
