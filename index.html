@@ -92,27 +92,28 @@
           <div>
             <ul>
               <li class="pt-2">
-                <i class="icon_xl fa-solid fa-house"></i>Home
+                <i class="icon_xl fa-solid fa-house"></i><span>Home</span>
               </li>
               <li class="pt-2">
-                <i class="icon_xl fa-solid fa-chart-simple"></i>Stats
+                <i class="icon_xl fa-solid fa-chart-simple"></i
+                ><span>Stats</span>
               </li>
               <li class="pt-2">
-                <i class="icon_xl fa-solid fa-signal"></i>Signals
+                <i class="icon_xl fa-solid fa-signal"></i><span>Signals</span>
               </li>
             </ul>
           </div>
           <div class="mt-auto">
             <i class="icon_xl d-inline-block fa-solid fa-gear"></i
-            ><span class="d-inline-block">Admin</span>
+            ><span>Admin</span>
           </div>
         </div>
       </div>
 
       <div id="main_content" class="border_debug">
         <!-- TOP-BAR -->
-        <div id="top_bar" class="box">
-          <div class="container">
+        <div id="top_bar " class="box bg-primary text-white">
+          <div class="container py-3">
             <div class="row">
               <div class="col-sm-12 col-md-4 order-sm-1 order-md-3">
                 <div class="box">New student</div>
@@ -121,20 +122,51 @@
                 <div class="box">Plan</div>
               </div>
               <div class="col-sm-12 col-md-4 order-sm-3 order-md-2">
-                <div class="box">Online Students</div>
+                <div class="text-start">
+                  <h3 class="fs-5">Studenti online negli ultimi 30 minuti</h3>
+                  <h4 class="fs-3">125</h4>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- CONTENT -->
         <div id="content" class="box">
-          <div class="container border_debug">
+          <div class="container py-3">
             <div class="row">
-              <div class="col-sm-12 col-lg-6">
-                <div class="box">Prossime classi</div>
+              <div class="col-sm-12 col-lg-8">
+                <div class="card">
+                  <h3 class="card-header fs-4 text-start">Prossime classi</h3>
+                  <div class="card-body d-flex">
+                    <table class="table p-0 m-0">
+                      <tr>
+                        <th class="flex-grow-1 text-start">Nome</th>
+                        <th class="">Data inizio</th>
+                        <th>ROI</th>
+                        <th>Stato</th>
+                        <th>Azioni</th>
+                      </tr>
+                      <tr>
+                        <td class="text-start">
+                          <img src="./img/class-avatar.jpg" alt="class pic" />
+                          Classe 75
+                        </td>
+                        <td class="text-start">15 Febbraio 2021</td>
+                        <td class="text-start">20%</td>
+                        <td class="text-start">Done</td>
+                        <td class="text-start">Done</td>
+                        <td class="text-start">icon icon</td>
+                      </tr>
+                      <tr>
+                        <td>Centro comercial Moctezuma</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
                 <div class="box">FAQ</div>
               </div>
-              <div class="col-sm-12 col-lg-6">
+              <div class="col-sm-12 col-lg-4">
                 <div class="box">TO DO</div>
                 <div class="box">Graphic</div>
               </div>

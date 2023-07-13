@@ -79,6 +79,23 @@ ul {
   overflow: auto;
 }
 
+#content .table td {
+  padding: 0;
+  margin: 0;
+}
+
+#content .table img {
+  width: 30px;
+}
+
+#content .table th {
+  padding: 0;
+}
+
+#content .table tr {
+  margin: 0;
+}
+
 /* 
 #******************
 #   RESPONSIVE    *
