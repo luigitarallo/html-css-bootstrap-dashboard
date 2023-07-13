@@ -26,7 +26,7 @@ ul {
  */
 
 .box {
-  width: auto;
+  min-width: auto;
   min-height: 80px;
   border: 2px dashed green;
   text-align: center;
@@ -71,12 +71,24 @@ ul {
   margin-right: 5px;
 }
 
-/* CONTENT */
+/* MAIN - CONTENT */
 
 #main_content {
   width: calc(100% - var(--sidebar-width));
   height: calc(100vh - 80px);
   overflow: auto;
+}
+
+/* TOP-BAR */
+
+#top_bar .btn {
+  font-size: 1.5rem;
+  padding: 0 0.7rem;
+  margin-left: 0.5rem;
+}
+#top_bar .btn:hover {
+  border: 1px solid white;
+  color: white;
 }
 
 #content .table td {
@@ -96,6 +108,12 @@ ul {
   margin: 0;
 }
 
+/* OFFCANVAS */
+
+.offcanvas.offcanvas-end {
+  width: 100%;
+}
+
 /* 
 #******************
 #   RESPONSIVE    *
@@ -107,5 +125,8 @@ ul {
 @media screen and (min-width: 992px) {
   :root {
     --sidebar-width: 100px;
+  }
+  .offcanvas.offcanvas-end {
+    width: 50%;
   }
 }
