@@ -103,6 +103,8 @@ ul {
 
 /* CONTENT */
 
+/* TABLE CARD */
+
 #content .table td {
   padding: 0;
   margin: 0;
@@ -120,6 +122,8 @@ ul {
   margin: 0;
 }
 
+/* TODO CARD */
+
 .form-check .form-check-input {
   margin-right: 0.5rem;
   margin-left: 0;
@@ -127,6 +131,17 @@ ul {
 
 .form-check.list-group-item {
   font-size: 0.8rem;
+}
+
+/* GRAPHIC CARD */
+
+#graphic li {
+  font-size: 0.8rem;
+}
+
+#graphic p,
+a {
+  font-size: 0.7rem;
 }
 
 /* OFFCANVAS */
