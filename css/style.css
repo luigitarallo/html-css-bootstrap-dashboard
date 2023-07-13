@@ -125,6 +125,10 @@ ul {
   margin-left: 0;
 }
 
+.form-check.list-group-item {
+  font-size: 0.8rem;
+}
+
 /* OFFCANVAS */
 
 .offcanvas.offcanvas-end {
