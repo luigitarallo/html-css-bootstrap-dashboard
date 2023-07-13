@@ -120,6 +120,11 @@ ul {
   margin: 0;
 }
 
+.form-check .form-check-input {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
 /* OFFCANVAS */
 
 .offcanvas.offcanvas-end {
