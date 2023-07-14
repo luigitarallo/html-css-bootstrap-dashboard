@@ -164,6 +164,13 @@ a {
 
 /* ## DESKTOP ## */
 
+@media screen and (min-width: 768px) {
+  /* TABLE CELL */
+  .class_name {
+    width: 25%;
+  }
+}
+
 @media screen and (min-width: 992px) {
   :root {
     --sidebar-width: 100px;
@@ -176,5 +183,9 @@ a {
   }
   .badge_sm {
     display: none;
+  }
+  /* TABLE CELL */
+  .class_name {
+    width: 50%;
   }
 }
