@@ -105,21 +105,26 @@ ul {
 
 /* TABLE CARD */
 
-#content .table td {
+#content .table td,
+.table th {
   padding: 0.5rem;
   margin: 0;
+  text-align: center;
+  font-weight: 400;
 }
 
 #content .table img {
   width: 20px;
 }
 
-#content .table th {
-  padding: 0;
-}
-
 #content .table tr {
   margin: 0;
+  font-size: 0.8rem;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+  font-size: 0.7rem;
 }
 
 /* TODO CARD */
