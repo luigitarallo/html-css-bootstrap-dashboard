@@ -652,118 +652,138 @@
       </div>
       <div class="offcanvas-body">
         <div class="container-fluid">
-          <div class="row">
-            <!-- ADD NAME -->
-            <div class="col-sm-12 col-md-6">
-              <div class="mb-3">
-                <label for="add-student-name" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="add-student-name" />
-              </div>
-            </div>
-            <!-- ADD SURNAME -->
-            <div class="col-sm-12 col-md-6">
-              <div class="mb-3">
-                <label for="add-student-surname" class="form-label"
-                  >Cognome</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="add-student-surname"
-                />
-              </div>
-            </div>
-            <!-- ADD EMAIL -->
-            <div class="col-md-6">
-              <div class="mb-3">
-                <label for="add-student-email" class="form-label">Email</label>
-                <div class="input-group">
-                  <span class="input-group-text" id="add-student-email">@</span>
+          <form>
+            <div class="row">
+              <!-- ADD NAME -->
+
+              <div class="col-sm-12 col-md-6">
+                <div class="mb-3">
+                  <label for="add-student-name" class="form-label">Nome</label>
                   <input
                     type="text"
                     class="form-control"
-                    aria-label="Username"
-                    aria-describedby="basic-addon1"
-                    id="add-student-email"
+                    id="add-student-name"
                   />
                 </div>
               </div>
-            </div>
-            <!-- ADD PASSWORD -->
-            <div class="col-md-6">
-              <div class="mb-3">
-                <label for="add-student-passord" class="form-label"
-                  >Password</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="add-student-password"
-                />
-              </div>
-            </div>
-            <!-- ADD ADDRESS -->
-            <div class="col-12">
-              <div class="mb-3">
-                <label for="add-student-address" class="form-label"
-                  >Indirizzo</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="add-student-address"
-                />
-              </div>
-            </div>
-            <!-- ADD CITY -->
-            <div class="col-sm-12 col-md-6">
-              <div class="mb-3">
-                <label for="add-student-city" class="form-label">Città</label>
-                <input type="text" class="form-control" id="add-student-city" />
-              </div>
-            </div>
-            <!-- ADD STATE -->
-            <div class="col-sm-12 col-md-4">
-              <div class="mb-3">
-                <label class="form-label" for="state">Stato</label>
-                <select class="form-select" id="state">
-                  <option selected>Scegli...</option>
-                  <option value="1">Italia</option>
-                  <option value="2">Bangladesh</option>
-                  <option value="3">Papuasia</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-2">
-              <div class="mb-3">
-                <label for="add-student-city-cap" class="form-label">CAP</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="add-student-city-cap"
-                />
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="mb-3">
-                <label for="add-student-file" class="form-label">Foto</label>
 
-                <input
-                  type="file"
-                  class="form-control"
-                  id="add-student-file"
-                  aria-describedby="inputGroupFileAddon04"
-                  aria-label="Upload"
-                />
+              <!-- ADD SURNAME -->
+              <div class="col-sm-12 col-md-6">
+                <div class="mb-3">
+                  <label for="add-student-surname" class="form-label"
+                    >Cognome</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="add-student-surname"
+                  />
+                </div>
+              </div>
+              <!-- ADD EMAIL -->
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="add-student-email" class="form-label"
+                    >Email</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text" id="add-student-email"
+                      >@</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                      id="add-student-email"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- ADD PASSWORD -->
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="add-student-passord" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="add-student-password"
+                  />
+                </div>
+              </div>
+              <!-- ADD ADDRESS -->
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="add-student-address" class="form-label"
+                    >Indirizzo</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="add-student-address"
+                  />
+                </div>
+              </div>
+              <!-- ADD CITY -->
+              <div class="col-sm-12 col-md-6">
+                <div class="mb-3">
+                  <label for="add-student-city" class="form-label">Città</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="add-student-city"
+                  />
+                </div>
+              </div>
+              <!-- ADD STATE -->
+              <div class="col-sm-12 col-md-4">
+                <div class="mb-3">
+                  <label class="form-label" for="state">Stato</label>
+                  <select class="form-select" id="state">
+                    <option selected>Scegli...</option>
+                    <option value="1">Italia</option>
+                    <option value="2">Bangladesh</option>
+                    <option value="3">Papuasia</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-2">
+                <div class="mb-3">
+                  <label for="add-student-city-cap" class="form-label"
+                    >CAP</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="add-student-city-cap"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="add-student-file" class="form-label">Foto</label>
+
+                  <input
+                    type="file"
+                    class="form-control"
+                    id="add-student-file"
+                    aria-describedby="inputGroupFileAddon04"
+                    aria-label="Upload"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="input-group mb-3">
+                  <input type="checkbox" required />
+                  <span class="ms-1">Seleziona per proseguire</span>
+                </div>
               </div>
             </div>
-            <div class="col-12">
-              <div class="input-group mb-3">
-                <input type="checkbox" required />
-                <span class="ms-1">Seleziona per proseguire</span>
-              </div>
-            </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Salva</button>
+            <button type="reset" class="btn btn-warning">Svuota</button>
+          </form>
         </div>
       </div>
     </div>
