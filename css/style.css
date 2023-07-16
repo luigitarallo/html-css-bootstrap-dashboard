@@ -60,13 +60,13 @@ ul {
   border: none;
 }
 
-.header_nav_icons i {
+#header .header_nav_icons i {
   color: #6c757d;
   margin: 0 0.5rem;
 }
 
-#header .form-control,
-.input-group-text {
+#header .search_bar.form-control,
+.search_bar.input-group-text {
   background-color: #e5e5e5;
   border: none;
 }
