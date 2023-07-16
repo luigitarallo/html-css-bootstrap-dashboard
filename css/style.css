@@ -45,9 +45,13 @@ ul {
 
 /* NAVBAR */
 
-.btn-secondary {
+.dropdown .btn {
   background-color: transparent;
   border: none;
+  color: orange;
+}
+
+.dropdown .btn.show {
   color: orange;
 }
 
