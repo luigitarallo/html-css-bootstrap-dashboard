@@ -40,7 +40,7 @@ ul {
 /* HEADER */
 
 #header {
-  height: 80px;
+  height: 76px;
 }
 
 /* NAVBAR */
@@ -60,11 +60,22 @@ ul {
   border: none;
 }
 
+.header_nav_icons i {
+  color: #6c757d;
+  margin: 0 0.5rem;
+}
+
+#header .form-control,
+.input-group-text {
+  background-color: #e5e5e5;
+  border: none;
+}
+
 /* SIDEBAR */
 
 #sidebar {
   width: var(--sidebar-width);
-  height: calc(100vh - 80px);
+  height: calc(100vh - 76px);
   background-image: url(../img/sidebar-bg.png);
   background-color: #0d253a;
 }
@@ -79,7 +90,7 @@ ul {
 
 #main_content {
   width: calc(100% - var(--sidebar-width));
-  height: calc(100vh - 80px);
+  height: calc(100vh - 76px);
   overflow: auto;
 }
 
