@@ -2,7 +2,7 @@
 
 Replica of a Dashboard Page. The page is responsive, with static data.
 
-- In this exercise I learned how to use Bootstrap for making a responsive dashboard page.
+- In this exercise I learned how to use Bootstrap classes for making a responsive dashboard page, a dropdown menu and accordions.
 
 _Boolean exercise with responsive layout_
 
