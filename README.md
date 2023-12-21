@@ -1,6 +1,6 @@
 # DASHBORD
 
-Replica of a Dashboard Page. The page is responsive, without logic and with fake
+Replica of a Dashboard Page. The page is responsive, without logic and with static data.
 
 _Boolean exercise with responsive layout_
 
