@@ -1,6 +1,8 @@
 # DASHBORD
 
-Replica of a Dashboard Page. The page is responsive, without logic and with static data.
+Replica of a Dashboard Page. The page is responsive, with static data.
+
+- In this exercise I learned how to use Bootstrap for making a responsive dashboard page.
 
 _Boolean exercise with responsive layout_
 
